@@ -5,10 +5,9 @@
 */
 
 /* Tabellen erzeugen */
-create table Staffelpreise(
-  staffelID          char(13) primary key,
-  staffelbegin       numeric(6,2),
-  staffelende        numeric(6,2),
-  preis          numeric(6,2)
+create table Ernte(
+  Jahr          char(13) primary key,
+  gesetzt       numeric(6,2),
+  geerntet        numeric(6,2)
 );
 
